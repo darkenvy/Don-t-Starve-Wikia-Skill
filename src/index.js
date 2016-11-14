@@ -75,7 +75,7 @@ function evalStatement(response, intent) {
 
   var cb = (err, res, body) => {
     var json = JSON.parse(body);
-    var text = 'Could not find';
+    var text = 'Charlie did not respond. It seems she is lost in the search for that item. Do ask again.';
     try {
       text = json.sections[0].content[0].text;
       text = text.replace(/\\/, ''); // Why isn't this working?!
