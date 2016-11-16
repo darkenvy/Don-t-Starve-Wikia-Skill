@@ -6,6 +6,7 @@ GetNewFactIntent what are {Item}
 GetNewFactIntent what about {Item}
 GetNewFactIntent more about {Item}
 GetNewFactIntent tell me about {Item}
+GetNewFactIntent tell me about the {Item}
 GetNewFactIntent tell me more of {Item}
 GetNewFactIntent tell me more about {Item}
 GetNewFactIntent look up {Item}
